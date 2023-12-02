@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="grid grid-flow-col gap-4">
           <a className="link link-hover">About us</a> 
           <a className="link link-hover">Contact</a> 
-          <a className="link link-hover">Collage</a> 
+          <a className="link link-hover">College</a> 
           <a className="link link-hover"> Admission</a>
         </div> 
         <div>
@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
         </div> 
         <div>
-          <p>Copyright © <span className="text-yellow-300"> 2023</span> - All right reserved by Get Your Collage</p>
+          <p>Copyright © <span className="text-yellow-300"> 2023</span> - All right reserved by Get Your College</p>
         </div>
       </footer>
     );

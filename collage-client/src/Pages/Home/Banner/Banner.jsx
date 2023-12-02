@@ -14,14 +14,14 @@ const Banner = () => {
                 <div>
                     <div className=" rounded-xl items-center h-full flex  bottom-0">
                         <div className='text-white lg:ms-9 space-y-7 w-3/4 pl-4  ps-7   '>
-                            <h2 className='text-2xl md:text-2xl font-bold '>Get <span className="text-yellow-300 ">&#39;</span>s Your <span className=" text-yellow-300 ">! </span><br /><span className="lg:text-8xl text-7xl font-black text-yellow-300">Collage</span></h2>
+                            <h2 className='text-2xl md:text-2xl font-bold '>Get <span className="text-yellow-300 ">&#39;</span>s Your <span className=" text-yellow-300 ">! </span><br /><span className="lg:text-8xl text-7xl font-black text-yellow-300">College</span></h2>
                             <p className="lg:block text-xl text-white">Find Your best choice for your career. {"Don't"} compromise.<br></br>Successful people are not gifted, they just work hard, then succeed on purpose</p>
                             <div className="grid lg:grid-cols-1  md:grid-cols-2  grid-cols-2" >
                                 <div>
                                     <Link to="/login"><button className='lg:text-lg  w-3/4 lg:w-full mb-3 btn text-black bg-yellow-300 mr-5'>LOG-IN</button></Link>
                                 </div>
                                 <div>
-                                    <Link to="/Collages"> <button className='lg:text-lg w-3/4  lg:w-full btn btn-outline btn-warning'>COLLAGE</button></Link>
+                                    <Link to="/Collages"> <button className='lg:text-lg w-3/4  lg:w-full btn btn-outline btn-warning'>COLLEGE</button></Link>
                                 </div>
                             </div>
                         </div>

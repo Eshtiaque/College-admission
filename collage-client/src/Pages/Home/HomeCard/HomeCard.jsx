@@ -32,14 +32,14 @@ const HomeCard = () => {
 
         <div>
 
-            <h1 className="rounded-lg  bg-black  p-2 text-2xl font-bold text-yellow-300 text-center">Search  Collages </h1>
+            <h1 className="rounded-lg  bg-black  p-2 text-2xl font-bold text-yellow-300 text-center">Search  Colleges </h1>
             <div className="search-box  text-center">
                 <input
 
                     onChange={(e) => setSearchText(e.target.value)}
                     type="text"
                     className="p-1 rounded-lg bg-white text-black"
-                    placeholder="Collage Name "
+                    placeholder="College Name "
                 />{" "}
                 <button onClick={handleSearch} className="btn m-4 bg-black text-yellow-300">Search</button>
                 <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-2 m-2">
