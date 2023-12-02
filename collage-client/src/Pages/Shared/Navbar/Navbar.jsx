@@ -78,11 +78,15 @@ const Navbar = () => {
         {
           user ?
             <span className="flex">
+              <Link to="/profile">
               <div className="avatar placeholder">
+              <p className="text-white text-xl flex items-center mr-3">{user.displayName}</p>
                 <div className="bg-neutral-focus text-neutral-content rounded-full w-16">
                   <img  src={user.photoURL} alt="" />
+                  
                 </div>
               </div>
+              </Link>
 
               <div className="ps-4 mt-2">
                 <button onClick={handleLogOut} className="btn btn-outline btn-warning ">Sign Out</button>

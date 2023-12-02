@@ -9,7 +9,7 @@ const MyDetails = () => {
         // console.log(_id,name, price, quantity, category, sellerName )
       useEffect(()=>{
        
-        fetch('http://localhost:5001/allCollage')
+        fetch('https://collage-admission.vercel.app/allCollage')
         .then(res=>res.json())
         .then(data=>{
             setCollage(data)

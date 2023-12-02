@@ -4,7 +4,7 @@ const CollageCard = ({ calls }) => {
     const {_id, college_image, college_name, admission_dates, number_of_research } = calls;
     return (
         <div>
-            <div className="card bg-base-100 text-white shadow-xl">
+            <div className="card bg-base-100 text-black shadow-xl">
                 <figure><img className="h-48 w-full" src={college_image} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">

@@ -41,7 +41,7 @@ const Router = createBrowserRouter([
       {
         path: '/details/:id',
         element: <PrivateRoutes><Details></Details></PrivateRoutes>,
-        loader: ({ params }) => fetch(`http://localhost:5001/allCollage/${params.id}`)
+        loader: ({ params }) => fetch(`https://collage-admission.vercel.app/allCollage/${params.id}`)
 
 
       },
@@ -63,7 +63,7 @@ const Router = createBrowserRouter([
       {
         path: '/editCollage/:id',
         element: <EditCollage></EditCollage>,
-        loader:({params})=>fetch(`http://localhost:5001/editCollage/${params.id}`)
+        loader:({params})=>fetch(`https://collage-admission.vercel.app/editCollage/${params.id}`)
 
       },
     ]

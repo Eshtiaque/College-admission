@@ -15,7 +15,7 @@ const EditCollage = () => {
     form.reset();
     // console.log(data.price);
     const update ={number , email,address ,name};
-    fetch(`http://localhost:5001/allCollage/${data._id}`,{
+    fetch(`https://collage-admission.vercel.app/allCollage/${data._id}`,{
       method:"PUT",
       headers:{
         "content-type":"application/json"

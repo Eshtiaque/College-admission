@@ -9,7 +9,7 @@ const HomeCard = () => {
 
     useEffect(() => {
         setLoading(true)
-        fetch('http://localhost:5001/allCollage')
+        fetch('https://collage-admission.vercel.app/allCollage')
             .then(res => res.json())
             .then(data => {
                 setCollage(data)
@@ -19,7 +19,7 @@ const HomeCard = () => {
     }, [])
 
     const handleSearch = () => {
-        fetch(`http://localhost:5001/searchText/${searchText}`)
+        fetch(`https://collage-admission.vercel.app/searchText/${searchText}`)
             .then((res) => res.json())
             .then((data) => {
                 console.log(data);

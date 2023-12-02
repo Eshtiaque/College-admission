@@ -9,7 +9,7 @@ const MyCollage = () => {
     const { user } = useContext(AuthContext)
     const [man, setMan] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5001/myCollage/${user?.email}`)
+        fetch(`https://collage-admission.vercel.app/myCollage/${user?.email}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data);
